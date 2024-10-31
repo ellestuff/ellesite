@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>ellesite.</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="png" href="favicon.png">
+	</head>
+	<body>
+		<div class="header">
+			<h1>wallpapers.</h1>
+			<p>hi get your wallpapers here.</p>
+            <p>click the wallpaper to download it</p>
+			<p><a href="index.html">return home.</a></p>
+		</div>
+        <div>
+			<h2>furry's trophy room.</h2>
+            <p>don't ask where she got those skulls from...</p>
+            <p>no blood. / bg only.</p>
+            <label class="switch">
+                <input type="checkbox" id="trophyroom_blood" onclick="updateWallpaper()" checked>
+                <span class="slider"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox" id="trophyroom_bg" onclick="updateWallpaper()">
+                <span class="slider"></span>
+            </label>
+            <br>
+            <a href="" id="trophyroom_a" download>
+                <img src="" id="trophyroom_img" class="wallpaperimg"/>
+            </a>
+            <p style="font-size: small;"><i>(purple skull in bg is a reference to <a href="https://bsky.app/profile/dragothedemon.bsky.social" target=”_blank”>drago</a>'s sona, as she has helped me a lot with worldbuilding and character writing)</i></p>
+		</div>
+	</body>
+    <script src="wallpapers.js"></script> 
+</html>
