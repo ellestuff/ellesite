@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	font-family: 'Courier New';
+	font-weight: bold;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(135deg, #ff53a9, #bb67ff, #75eaff);
+	background-attachment: fixed;
+	color: #090a1440;
+}
+
+div {
+	background-color: white;
+	color: #090a14;
+	margin: 16px auto;
+	border-image: url(images/nineslice_border.png);
+	border-image-slice: 64 16 40;
+	border-image-width: 64px 16px 40px;
+	padding: 72px 16px 16px;
+	width: 80%;
+	box-shadow: 8px 8px 0 0 #090a1420;
+}
+
+div a {
+	color: #ff53a9;
+}
+
+div a:hover {
+	color: #e21887;
+}
+
+.wallpaperimg {
+	display: block;
+	width: 80%;
+	margin: 8px auto;
+	padding: 8px;
+}
+
+.wallpaperimg:hover {
+	border: 8px solid #ff53a9;
+	padding: 0;
+}
+
+/*toggle switches*/
+.switch {
+	position: relative;
+	display: inline-block;
+	margin: 8px auto;
+	width: 48px;
+	height: 32px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	padding: 8px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #75eaff;
+	-webkit-transition: .25s;
+	transition: .25s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 8px;
+	bottom: 8px;
+	background-color: white;
+	-webkit-transition: .25s;
+	transition: .25s;
+}
+
+input:checked + .slider {
+	background-color: #ff53a9;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(16px);
+	-ms-transform: translateX(16px);
+	transform: translateX(16px);
+}
