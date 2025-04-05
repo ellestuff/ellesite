@@ -2,6 +2,7 @@
 	margin: 0;
 	font-family: 'Courier New';
 	font-weight: bold;
+	image-rendering: pixelated;
 }
 
 h1,h2,h3 {
@@ -24,6 +25,11 @@ div {
 	padding: 40px 12px 12px;
 	width: 80%;
 	box-shadow: 8px 8px 0 0 #090a1420;
+}
+
+div img {
+	max-width: 40%px;
+	height:auto;
 }
 
 div a {
@@ -94,4 +100,31 @@ input:checked + .slider:before {
 	-webkit-transform: translateX(16px);
 	-ms-transform: translateX(16px);
 	transform: translateX(16px);
+}
+
+div.list {
+	display: flex;
+	align-items: flex-start;
+	padding: 0;
+	border-image: none;
+	box-shadow: none;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+div.listtxt {
+	flex: 1;
+	padding-right: 20px;
+	border-image: none;
+	box-shadow: none;
+	margin: 0;
+	padding-top:16px;
+}
+
+div.listright {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+	max-width: 25%;
 }
