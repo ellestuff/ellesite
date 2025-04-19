@@ -108,7 +108,7 @@ div.list {
 	padding: 0;
 	border-image: none;
 	box-shadow: none;
-	width: 100%;
+	width: auto;
 	height: 100%;
 	margin: 0;
 	gap: 8px;
