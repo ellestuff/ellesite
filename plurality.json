@@ -1,0 +1,58 @@
+[
+	{
+		"name": "elle.",
+		"colour": "ff53a9"
+	},
+	{
+		"name": "Emily"
+	},
+	{
+		"name": "Amber",
+		"colour": "83E858"
+	},
+	{
+		"name": "Umbra",
+		"colour": "B0C3F5"
+	},
+	{
+		"name": "Sara",
+		"colour": "69CEFF"
+	},
+	{
+		"name": "Suzy",
+		"colour": "C189D4"
+	},
+	{
+		"name": "Ash",
+		"gradient": [
+			"FF5173",
+			"FFA967",
+			"FFF886",
+			"97FF61",
+			"9EEFFF",
+			"7896FE",
+			"CD9AFF",
+			"FF72CE"
+		]
+	},
+	{
+		"name": "Suzy",
+		"colour": "C189D4"
+	},
+	{
+		"name": "Rebecca",
+		"colour": "FFA837"
+	},
+	{
+		"name": "Amy",
+		"colour": "FF9BDE"
+	},
+	{
+		"name": "Cass",
+		"colour": "97FF61"
+	},
+	{
+		"name": "Amity",
+		"colour": "B25E6E"
+	}
+]
