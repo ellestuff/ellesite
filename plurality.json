@@ -36,10 +36,6 @@
 		]
 	},
 	{
-		"name": "Suzy",
-		"colour": "C189D4"
-	},
-	{
 		"name": "Rebecca",
 		"colour": "FFA837"
 	},
@@ -50,6 +46,14 @@
 	{
 		"name": "Cass",
 		"colour": "97FF61"
+	},
+	{
+		"name": "???",
+		"gradient_len": 3,
+		"gradient": [
+			"766A70",
+			"BD91CD"
+		]
 	},
 	{
 		"name": "Amity",
