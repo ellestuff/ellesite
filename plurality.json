@@ -65,10 +65,12 @@
 	},
 	{
 		"name": "elle.(little)",
-		"colour": "ff53a9"
+		"colour": "ff53a9",
+		"nolist": true
 	},
 	{
-		"name": "[Unnamed]"
+		"name": "[Unnamed]",
+		"nolist": true
 	},
 	{
 		"name": "Claire",
